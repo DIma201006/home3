@@ -1,0 +1,32 @@
+
+
+
+.list {
+  display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.item {
+    width: 250px;
+    height: 250px;
+
+    position: absolute;
+        background-color: palevioletred;
+     left: 570px;
+      top: 151px;
+}
+
+
+.item:nth-child(2) {
+    background-color: aqua;
+    z-index: 1;
+         left: 750px;
+   top: 300px;
+}
+
+.item:nth-child(3) {
+             left: 900px;
+   top: 450px;
+   background-color: seagreen;
+}
